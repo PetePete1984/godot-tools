@@ -165,7 +165,7 @@
       "begin": "(?x)\n  \\s*\n  (?:\\b(static) \\s+)? \\b(func|signal)\\s+\n    (?=\n      [[:alpha:]_][[:word:]]* \\s* \\(\n    )\n",
       "end": "(:|(?=[#'\"\\n]))",
       "beginCaptures": {
-        "1": { "name": "storage.type.function.static.gdscript" },
+        "1": { "name": "storage.modifier.static.gdscript" },
         "2": { "name": "storage.type.function.gdscript" }
       },
       "endCaptures": {
